@@ -18,7 +18,7 @@ import MultipleEnvironmentSelector from 'app/components/organizations/multipleEn
 import MultipleProjectSelector from 'app/components/organizations/multipleProjectSelector';
 import SentryTypes from 'app/sentryTypes';
 import TimeRangeSelector from 'app/components/organizations/timeRangeSelector';
-import PageHeader from 'app/components/pageHeader';
+import PageHeading from 'app/components/pageHeading';
 import space from 'app/styles/space';
 import {
   updateProjects,
@@ -310,7 +310,7 @@ const Body = styled('div')`
   padding: ${space(3)} ${space(4)};
 `;
 
-const HeaderTitle = styled(PageHeader)`
+const HeaderTitle = styled(PageHeading)`
   flex: 1;
 `;
 
